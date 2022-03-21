@@ -1,0 +1,58 @@
+body{
+    background: #d7d9e4;
+    padding: 90px;
+}
+section {
+    padding: 60px 0;
+    overflow: hidden;   
+}
+.section -bg {
+    background:#f5f8fd;
+}
+.section-title {
+    padding-bottom: 30px;
+}
+.section-title h2{
+    font-size: 32x;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position:relative;
+    color:#173b6c;
+    margin-top: 40px;
+}
+
+
+/*---------skills---------*/
+
+.skills .progress {
+    height: 50px;
+    display:block;
+    background: none;
+}
+.skills .progress .skill {
+    padding: 10px;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display:block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color:#050d18;
+}
+.skills .progress .skill .val {
+    float: right;
+    font-style: normal;
+
+}
+.skills .progress-bar-wrap {
+    background:#dce8f8;
+}
+.skills .progress-bar {
+    width: 500px;
+    height: 10px;
+    transition:0.9s;
+    background-color: #149ddd;
+}
+
+
+
