@@ -1,0 +1,59 @@
+body{
+    font-family:"Open Sans", sans-serif;
+    background-image: url(img/fondo.jpg);
+    color:bisque;
+    padding: 30px;
+}
+
+
+.contact .php-email-form input {
+    height: 44px;
+}
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+    padding: 10px 12px;
+
+}
+.contact .php-email-form button[type="submit"]{
+    background: #149ddd;
+    border:0;
+    padding: 10px 12px;
+    color:#fff;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+.contact .php-email-form button[type="submit"]{
+    background: #004e72;
+
+}
+.contact .php-email-form button[type="submit"]:hover{
+background:rgb(245, 91, 99) ;
+}
+
+.back-to-top {
+    position: fixed;
+    display:none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    right: 15px;
+    bottom: 15px;
+    background: #149ddd;
+    color:#fff;
+    transition: display 0.5s ease-in-out;
+    z-index: 9999;
+}
+.back-to-top i {
+    font-size: 24px;
+    position: absolute;
+    top:7px;
+    left:8px;
+}
+.back-to-top:hover {
+    color:#fff;
+    background: #00ecb1;
+    
+}
+
+
+
